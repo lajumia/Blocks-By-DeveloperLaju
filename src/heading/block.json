@@ -1,0 +1,102 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/heading",
+	"version": "0.1.0",
+	"title": "Heading",
+	"category": "bbdl-category",
+	"icon": "editor-textcolor",
+	"description": "Add titles and headings with style.",
+	"example": {},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": "Add Heading Text..."
+		},
+		"selectedTag": {
+			"type": "number",
+			"default": 0
+		},
+		"selectedAlign": {
+			"type": "number",
+			"default": 0
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": ""
+		},
+		"fontFamily": {
+			"type": "string",
+			"default": "Arial"
+		},
+		"fontSize": {
+			"type": "number",
+			"default": 20
+		},
+		"fontWeight": {
+			"type": "string",
+			"default": "400"
+		},
+		"lineHeight": {
+			"type": "number",
+			"default": 1
+		},
+		"letterSpacing": {
+			"type": "number",
+			"default": 0
+		},
+		"fontStyle": {
+			"type": "string",
+			"default": "normal"
+		},
+		"textTransform": {
+			"type": "string",
+			"default": "none"
+		},
+		"textDecoration": {
+			"type": "string",
+			"default": "none"
+		},
+		"marginTop": {
+			"type": "number",
+			"default": 0
+		},
+		"marginBottom": {
+			"type": "number",
+			"default": 0
+		},
+		"marginLeft": {
+			"type": "number",
+			"default": 0
+		},
+		"marginRight": {
+			"type": "number",
+			"default": 0
+		},
+		"paddingTop": {
+			"type": "number",
+			"default": 0
+		},
+		"paddingBottom": {
+			"type": "number",
+			"default": 0
+		},
+		"paddingLeft": {
+			"type": "number",
+			"default": 0
+		},
+		"paddingRight": {
+			"type": "number",
+			"default": 0
+		}
+	},
+
+	"textdomain": "bbdl",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"render": "file:./render.php"
+}

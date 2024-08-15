@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/latest-post",
+	"version": "0.1.0",
+	"title": "Letest Post",
+	"category": "bbdl-category",
+	"icon": "",
+	"description": "Show your latest post",
+	"textdomain": "bbdl",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"render": "file:./render.php"
+}

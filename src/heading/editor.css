@@ -1,0 +1,77 @@
+.heading-tab-panel {
+	margin-top: 20px;
+}
+.h-active-tab {
+	color: #fe0000 !important;
+	border: 2px solid;
+}
+.tab-item {
+	border-bottom: 2px solid #fe0000;
+}
+.h-active-tab {
+	color: #fe0000 !important;
+	border: 2px solid;
+	border-bottom: none !important;
+}
+.bg-color-picker,
+.font-family,
+.text-color-picker,
+.font-weight,
+.font-size,
+.line-height,
+.latter-spacing,
+.font-style,
+.text-transform,
+.text-decoration {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px 0px;
+}
+
+.text-color-btn,
+.bg-color-btn {
+	border: 1px solid #e6e6e6;
+}
+.margin-text-control {
+	margin-bottom: 0px !important;
+}
+
+.mc-child {
+	text-align: center;
+}
+.mc-child > .components-base-control {
+	margin-bottom: 0px !important;
+}
+
+.margin-control__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.padding-text-control {
+	margin-bottom: 0px !important;
+}
+
+.pc-child {
+	text-align: center;
+}
+.pc-child > .components-base-control {
+	margin-bottom: 0px !important;
+}
+
+.padding-control__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.components-text-control__input {
+	border: 1px solid #d3d3d3 !important;
+	border-radius: 0px !important;
+	width: 101% !important;
+}
+
+.components-base-control__field {
+	margin-bottom: 0px !important;
+}
